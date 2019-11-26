@@ -8,7 +8,8 @@ import pygame
 print ("Приветствую Дредд, введи уровень: ")
 level:int = input ()
 print("Введи ник: ")
-name:str = input ()
+name:\
+    str = input ()
 
 
 result: str = "magnus;magnus161;./csgoserver console;wcs_setlblvl " + level + " " + name
