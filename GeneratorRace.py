@@ -11,7 +11,7 @@ tempList = []
 class Race(object):
 
     def DefaultForm(self, tempList):
-        print('\"name\"\n{\n\"name\"\"name\"\n\"required\" \"', required,  '\"\n\"author\" \"Magnus\"\n\"category\" \"Девятый дивизион(30000-45000)\"\n\"maxlvl\" \"1000\"\n\"teamlimit\" \"0\"\n\"skillamount\"\"', maxSkills, '\"\n\"skilllvls\" \"0\"\n\"skillsets\" \"4\"\n\"skillnames\" \"none\"\n\"skilldesc\" \"none\"')
+        print('\"name\"\n{\n\"name\" \"name\"\n\"required\" \"', required,  '\"\n\"author\" \"Magnus\"\n\"category\" \"Девятый дивизион(30000-45000)\"\n\"maxlvl\" \"1000\"\n\"teamlimit\" \"0\"\n\"skillamount\" \"', maxSkills, '\"\n\"skilllvls\" \"0\"\n\"skillsets\" \"4\"\n\"skillnames\" \"none\"\n\"skilldesc\" \"none\"')
 
 
     def GeneratorSkills(self, maxSkills):
