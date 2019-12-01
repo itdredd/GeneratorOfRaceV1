@@ -108,7 +108,7 @@ class Race(object):
                 print('\"skill' + str(int(z+1)) + '\"          \"longjump =\"\n\"setting' + str(int(z+1)) + '\"', '       \"' + str(valueOfSkill) + ';' + str(int(valueOfSkill + additionalValue)) + ';' + str(int(valueOfSkill + additionalValue * 2)) + ';' + str(int(valueOfSkill + additionalValue * 3)) + '\"')
 
             elif temp == listSkills.index('evasion'):
-                valueOfSkill = random.randrange(0, 70)
+                valueOfSkill = random.randrange(0, 60)
                 additionalValue = 0
                 if valueOfSkill < 50:
                     additionalValue = random.randrange(3, 7)
