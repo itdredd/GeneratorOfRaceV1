@@ -29,7 +29,8 @@ class Race(object):
             elif temp == listSkills.index('gravity'):
                 valueOfSkill = random.randrange(60, 100)
                 additionalValue = random.randrange(5, 8)
-                print('\"skill' + str(int(z+1)), '\" \"gravity =\"\n\"setting' + str(int(z+1)), '\"', valueOfSkill+additionalValue, ';', valueOfSkill+additionalValue*2, ';', valueOfSkill+additionalValue*3, '\"')
+                valueOfSkill /= 100
+                print('\"skill' + str(int(z+1)), '\" \"gravity =\"\n\"setting' + str(int(z+1)), '\"', valueOfSkill, ';', valueOfSkill-additionalValue, ';', valueOfSkill-additionalValue*2, ';', valueOfSkill-additionalValue*3, '\"')
 
             elif temp == listSkills.index('hp'):
                 valueOfSkill = random.randrange(100, 150)
@@ -141,4 +142,5 @@ class Race(object):
 obj = Race
 obj.DefaultForm(0, tempList)
 obj.GeneratorSkills(0, maxSkills)
+input()
 
