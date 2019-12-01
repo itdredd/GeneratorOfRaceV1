@@ -29,7 +29,7 @@ class Race(object):
                 additionalValue/=100
                 round(additionalValue, 3)
                 round(valueOfSkill, 3)
-                print('\t\"skill' + str(int(z+1)) + '\"          \"speed =\"\n\t\"setting' + str(int(z+1)) + '\"', '       \"' + str(valueOfSkill) + ';' + str(float(valueOfSkill+additionalValue)) + ';' + str(float(valueOfSkill+additionalValue))*2 + ';' + str(float(valueOfSkill+additionalValue))*3 + '\"')
+                print('\t\"skill' + str(int(z+1)) + '\"          \"speed =\"\n\t\"setting' + str(int(z+1)) + '\"', '       \"' + str(round(valueOfSkill,3)) + ';' + str(round(float(valueOfSkill+additionalValue), 3)) + ';' + str(round(float(valueOfSkill+additionalValue*2),3)) + ';' + str(round(float(valueOfSkill+additionalValue*3), 3)) + '\"')
             elif temp == listSkills.index('gravity'):
                 valueOfSkill = random.randrange(60, 100)
                 additionalValue = random.randrange(5, 8)
