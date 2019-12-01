@@ -1,0 +1,15 @@
+
+"name"
+{
+"name" "name"
+"required" "10"
+"author" "Magnus"
+"category" "Девятый дивизион(30000-45000)"
+"maxlvl" "1000"
+"teamlimit" "0"
+"skillamount" "10"
+"skilllvls" "0"
+"skillsets" "4"
+"skillnames" "none"
+"skilldesc" "none""skill1" "vampire ="
+"setting1"39.29;41.491;43.692;45.893"
