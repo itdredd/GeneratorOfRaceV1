@@ -1,4 +1,3 @@
-kek = 'seks'
-test = 'tes'
-temp = '\"paralyze =\"\ntest'
-print(temp)
+import random
+i = random.randrange(0, 2)
+print(i)
